@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD8D326915CFA2B900B23B3D /* WFWiFiScan.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8D326815CFA2B900B23B3D /* WFWiFiScan.m */; };
+		BDEE1EA915C29BB3003F8549 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDEE1EA815C29BB3003F8549 /* UIKit.framework */; };
+		BDEE1EAB15C29BB3003F8549 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDEE1EAA15C29BB3003F8549 /* Foundation.framework */; };
+		BDEE1EAD15C29BB3003F8549 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDEE1EAC15C29BB3003F8549 /* CoreGraphics.framework */; };
+		BDEE1EB315C29BB3003F8549 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDEE1EB115C29BB3003F8549 /* InfoPlist.strings */; };
+		BDEE1EB515C29BB3003F8549 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEE1EB415C29BB3003F8549 /* main.m */; };
+		BDEE1EB915C29BB3003F8549 /* WFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEE1EB815C29BB3003F8549 /* WFAppDelegate.m */; };
+		BDEE1EBC15C29BB3003F8549 /* WFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEE1EBB15C29BB3003F8549 /* WFViewController.m */; };
+		BDEE1EBF15C29BB3003F8549 /* WFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDEE1EBD15C29BB3003F8549 /* WFViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD8D326715CFA2B900B23B3D /* WFWiFiScan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFWiFiScan.h; sourceTree = "<group>"; };
+		BD8D326815CFA2B900B23B3D /* WFWiFiScan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFWiFiScan.m; sourceTree = "<group>"; };
+		BDEE1EA415C29BB3003F8549 /* iPhoneWiFiScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneWiFiScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEE1EA815C29BB3003F8549 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BDEE1EAA15C29BB3003F8549 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BDEE1EAC15C29BB3003F8549 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BDEE1EB015C29BB3003F8549 /* iPhoneWiFiScan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPhoneWiFiScan-Info.plist"; sourceTree = "<group>"; };
+		BDEE1EB215C29BB3003F8549 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDEE1EB415C29BB3003F8549 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDEE1EB615C29BB3003F8549 /* iPhoneWiFiScan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPhoneWiFiScan-Prefix.pch"; sourceTree = "<group>"; };
+		BDEE1EB715C29BB3003F8549 /* WFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFAppDelegate.h; sourceTree = "<group>"; };
+		BDEE1EB815C29BB3003F8549 /* WFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFAppDelegate.m; sourceTree = "<group>"; };
+		BDEE1EBA15C29BB3003F8549 /* WFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFViewController.h; sourceTree = "<group>"; };
+		BDEE1EBB15C29BB3003F8549 /* WFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFViewController.m; sourceTree = "<group>"; };
+		BDEE1EBE15C29BB3003F8549 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WFViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDEE1EA115C29BB3003F8549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEE1EA915C29BB3003F8549 /* UIKit.framework in Frameworks */,
+				BDEE1EAB15C29BB3003F8549 /* Foundation.framework in Frameworks */,
+				BDEE1EAD15C29BB3003F8549 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDEE1E9915C29BB3003F8549 = {
+			isa = PBXGroup;
+			children = (
+				BDEE1EAE15C29BB3003F8549 /* iPhoneWiFiScan */,
+				BDEE1EA715C29BB3003F8549 /* Frameworks */,
+				BDEE1EA515C29BB3003F8549 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDEE1EA515C29BB3003F8549 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDEE1EA415C29BB3003F8549 /* iPhoneWiFiScan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDEE1EA715C29BB3003F8549 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDEE1EA815C29BB3003F8549 /* UIKit.framework */,
+				BDEE1EAA15C29BB3003F8549 /* Foundation.framework */,
+				BDEE1EAC15C29BB3003F8549 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDEE1EAE15C29BB3003F8549 /* iPhoneWiFiScan */ = {
+			isa = PBXGroup;
+			children = (
+				BDEE1EB715C29BB3003F8549 /* WFAppDelegate.h */,
+				BDEE1EB815C29BB3003F8549 /* WFAppDelegate.m */,
+				BDEE1EBA15C29BB3003F8549 /* WFViewController.h */,
+				BDEE1EBB15C29BB3003F8549 /* WFViewController.m */,
+				BDEE1EBD15C29BB3003F8549 /* WFViewController.xib */,
+				BD8D326715CFA2B900B23B3D /* WFWiFiScan.h */,
+				BD8D326815CFA2B900B23B3D /* WFWiFiScan.m */,
+				BDEE1EAF15C29BB3003F8549 /* Supporting Files */,
+			);
+			path = iPhoneWiFiScan;
+			sourceTree = "<group>";
+		};
+		BDEE1EAF15C29BB3003F8549 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDEE1EB015C29BB3003F8549 /* iPhoneWiFiScan-Info.plist */,
+				BDEE1EB115C29BB3003F8549 /* InfoPlist.strings */,
+				BDEE1EB415C29BB3003F8549 /* main.m */,
+				BDEE1EB615C29BB3003F8549 /* iPhoneWiFiScan-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDEE1EA315C29BB3003F8549 /* iPhoneWiFiScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDEE1EC215C29BB3003F8549 /* Build configuration list for PBXNativeTarget "iPhoneWiFiScan" */;
+			buildPhases = (
+				BDEE1EA015C29BB3003F8549 /* Sources */,
+				BDEE1EA115C29BB3003F8549 /* Frameworks */,
+				BDEE1EA215C29BB3003F8549 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPhoneWiFiScan;
+			productName = iPhoneWiFiScan;
+			productReference = BDEE1EA415C29BB3003F8549 /* iPhoneWiFiScan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDEE1E9B15C29BB3003F8549 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WF;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = wiseflag.com;
+			};
+			buildConfigurationList = BDEE1E9E15C29BB3003F8549 /* Build configuration list for PBXProject "iPhoneWiFiScan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BDEE1E9915C29BB3003F8549;
+			productRefGroup = BDEE1EA515C29BB3003F8549 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDEE1EA315C29BB3003F8549 /* iPhoneWiFiScan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDEE1EA215C29BB3003F8549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEE1EB315C29BB3003F8549 /* InfoPlist.strings in Resources */,
+				BDEE1EBF15C29BB3003F8549 /* WFViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDEE1EA015C29BB3003F8549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEE1EB515C29BB3003F8549 /* main.m in Sources */,
+				BDEE1EB915C29BB3003F8549 /* WFAppDelegate.m in Sources */,
+				BDEE1EBC15C29BB3003F8549 /* WFViewController.m in Sources */,
+				BD8D326915CFA2B900B23B3D /* WFWiFiScan.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDEE1EB115C29BB3003F8549 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDEE1EB215C29BB3003F8549 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BDEE1EBD15C29BB3003F8549 /* WFViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDEE1EBE15C29BB3003F8549 /* en */,
+			);
+			name = WFViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDEE1EC015C29BB3003F8549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BDEE1EC115C29BB3003F8549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDEE1EC315C29BB3003F8549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhoneWiFiScan/iPhoneWiFiScan-Prefix.pch";
+				INFOPLIST_FILE = "iPhoneWiFiScan/iPhoneWiFiScan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BDEE1EC415C29BB3003F8549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhoneWiFiScan/iPhoneWiFiScan-Prefix.pch";
+				INFOPLIST_FILE = "iPhoneWiFiScan/iPhoneWiFiScan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDEE1E9E15C29BB3003F8549 /* Build configuration list for PBXProject "iPhoneWiFiScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEE1EC015C29BB3003F8549 /* Debug */,
+				BDEE1EC115C29BB3003F8549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDEE1EC215C29BB3003F8549 /* Build configuration list for PBXNativeTarget "iPhoneWiFiScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEE1EC315C29BB3003F8549 /* Debug */,
+				BDEE1EC415C29BB3003F8549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDEE1E9B15C29BB3003F8549 /* Project object */;
+}
